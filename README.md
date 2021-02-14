@@ -47,7 +47,7 @@ You will use all HTML, CSS, Accessibility, Responsive design, Bootstrap
 
 ## Here the final result:
 
-![alt text](https://github.com/afinesami)
+![alt text](https://github.com/afinesami/holberton-smiling-school/blob/main/3c71cc99d2fc1c12a3d3.jpg)
 
 ## Author
 
