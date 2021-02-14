@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/7162430c1a.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="courses pt-3 pb-0">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand mx-auto d-flex flex-column align-items-center" href="#">
+                    <img src="images/smile_off.png" height="30px" alt="">
+                    <img src="images/logo.png" height="35px" alt="">
+                </a>
+                <button class="navbar-toggler main-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler">o</span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-5">
+          <h3 class="h1-responsive my-5 title-courses">« Don’t cry because it’s over.<br> <span class="resal">Smile</span> because it happened. »</h3>
+        </div>
+
+
+        <main>
+            <section class="section-search container-fluid text-white py-3">
+                <div class="container-lg">
+                    <nav class="navbar row">
+                        <div class="input-group col-md-4 my-3">
+                            <h6 class="font-weight-bold text-uppercase text-left">Keywords</h6>
+                            <div class="input-group-prepend w-100">
+                                <span class="font-icon-filter input-group-text bg-transparent border-0 border-bottom bg-span"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                <input class="form-control form-control-sm sear-btn text-white" type="search" placeholder="Search by keywords" aria-label="Search" />
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 my-3">
+                            <h6 class="font-weight-bold text-uppercase text-left">Topic</h6>
+                            <div class="dropdown rounded-0">
+                                <button class="btn btn-lg dropdown-toggle text-white rounded-0 d-flex justify-content-between align-items-center sear-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Novice
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropButton1">
+                                    <a class="dropdown-item" href="#">Novice</a>
+                                    <a class="dropdown-item" href="#">Intermediate</a>
+                                    <a class="dropdown-item" href="#">Expert</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 my-3">
+                            <h6 class="font-weight-bold text-uppercase text-left">Sort by</h6>
+                            <div class="dropdown">
+                                <button class="btn btn-lg dropdown-toggle text-white rounded-0 d-flex justify-content-between align-items-center sear-btn" type="button" id="dropdownMenuButton-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Most Popular
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropButton2">
+                                    <a class="dropdown-item" href="#">Most Popular</a>
+                                    <a class="dropdown-item" href="#">Most recent</a>
+                                    <a class="dropdown-item" href="#">Most Viewed</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </main>
+    </header>
+</body>
+</html>

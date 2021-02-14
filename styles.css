@@ -1,0 +1,57 @@
+body {
+  font-family: 'Source Sans Pro', Helvetica, serif;
+}
+
+header {
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url(images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.pricing {
+  background-image: url(images/pic_2.jpg);
+}
+header.courses {
+  background-image: url(images/pic_3.jpg);
+}
+
+.main-toggler {
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+
+.free, footer {
+  background-color: #071629;
+}
+
+.btn-own, #carousel {
+  background-color: #C271FF;
+}
+.resal {
+  color: #C271FF;
+}
+
+.table-pricing i {
+  color: #82d24f;
+}
+
+.title-courses {
+  font-family: "coiny";
+}
+
+.section-search {
+  background-color: #c271ff;
+}
+
+.sear-btn {
+  background-color: #d7aef7;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #fff;
+}
